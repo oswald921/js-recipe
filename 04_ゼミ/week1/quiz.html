@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WebExpertコーステンプレート</title>
+  </head>
+  <body>
+    <div>僕の趣味は何でしょう？</div>
+    <button id="diving">ダイビング</button>
+    <button id="sauna">サウナ</button>
+    <button id="game">ゲーム</button>
+    <h5 id="text"></h5>
+    <script>
+      // ↓間違いではないんだけど、今後プログラミングしていくときに、変数名をもっとわかりやすくした方がいいよ！
+      const divingButton = document.getElementById("diving")
+      const saunaButton = document.getElementById("sauna")
+      const gameButton = document.getElementById("game")
+      const text = document.getElementById("text")
+
+      divingButton.onclick = function () {
+        text.textContent =
+          "正解です！楽しいので興味があったらやってみてください！"
+      }
+
+      saunaButton.onclick = function () {
+        text.textContent = "大正解です！一緒にサウナ入って整いましょう！"
+      }
+
+      gameButton.onclick = function () {
+        text.textContent = "正解です！嫌いな人いないですよね？"
+      }
+    </script>
+  </body>
+</html>
+
+<!-- === このメッセージは消しても構いません === -->
+
+<!-- GeekSalon WebExpertコースのペアプロで使用するためのテンプレートです。 -->
+<!-- ✅ 👈のメニューから一番下の「👬」のアイコンを選んで -->
+<!--    Live Modeを「Everyone cab edit」に変更した後、 -->
+<!--    「You're live!」の下、「Stop Session」の上、にあるリンクをShareしましょう -->
+<!-- ✅ CodeSandBoxはVS Codeとほぼ同じ様に扱えます。 -->
+<!-- ✅ 👉にある画面が実行画面です。 -->
+<!-- ✅ 👉の👇にある「Console」が実行時のConsoleになります。 -->
+<!--    たまに挙動がおかしい時があるので気をつけましょう。 -->
+
+<!-- =============================== -->
+
+git add . git commit -m "ゼミでクイズを作りました。" git push origin master

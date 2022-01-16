@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //objectについて
+      //例
+      const Igarashi = {
+          name:"五十嵐"
+          age:23
+          hobbies:["読書", "ゲーム", "ダイビング"]    //object内の配列
+          family: {
+              sister: "南歩"
+              father: "英夫"  //object内のobject
+          }
+      };
+      Igarashi.name //object内の呼び出し
+
+
+      //DOM(Document Object Model)について
+      <h1>DOMについて</h1>
+      <div id="youso">ここの内容を変える</div>
+      const element = document.getElementById("youso");
+      element.textContent = "DOMを通じて変えられる"
+
+      <button id="b1">押せば変わる</button>
+      const
+    </script>
+  </body>
+</html>
