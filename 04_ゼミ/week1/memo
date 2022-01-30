@@ -29,7 +29,7 @@
       element.textContent = "DOMを通じて変えられる"
 
       <button id="b1">押せば変わる</button>
-      const
+      
     </script>
   </body>
 </html>
