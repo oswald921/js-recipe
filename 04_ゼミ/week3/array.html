@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //配列の作成
+      const aisatsu = ["おはよう", "こんにちは", "こんばんは"]
+      console.log(aisatsu)
+      //配列の末尾に追加
+      aisatsu.push("おやすみ")
+      console.log(aisatsu)
+      //配列の削除、追加
+      aisatsu.splice(1, 1, "Hello")
+      console.log(aisatsu)
+      //配列にindexをつける
+      for (i = 0; i < aisatsu.length; i++) {
+        aisatsu[i] = i + aisatsu[i]
+      }
+      console.log{aisatsu}
+      //うまくいかなかった
+    </script>
+  </body>
+</html>
